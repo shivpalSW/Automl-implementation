@@ -1,0 +1,16 @@
+if (RM <= 6.838) and (LSTAT <= 14.4) and (DIS > 1.385) then response: 22.958 | based on 132 samples
+
+if (RM <= 6.838) and (LSTAT > 14.4) and (NOX > 0.607) then response: 13.252 | based on 71 samples
+
+if (RM <= 6.838) and (LSTAT > 14.4) and (NOX <= 0.607) then response: 18.098 | based on 43 samples
+
+if (RM > 6.838) and (RM <= 7.445) and (DIS > 1.886) then response: 32.01 | based on 31 samples
+
+if (RM > 6.838) and (RM > 7.445) and (CRIM <= 2.654) then response: 45.78 | based on 20 samples
+
+if (RM <= 6.838) and (LSTAT <= 14.4) and (DIS <= 1.385) then response: 50.0 | based on 3 samples
+
+if (RM > 6.838) and (RM <= 7.445) and (DIS <= 1.886) then response: 45.65 | based on 2 samples
+
+if (RM > 6.838) and (RM > 7.445) and (CRIM > 2.654) then response: 21.9 | based on 1 samples
+
