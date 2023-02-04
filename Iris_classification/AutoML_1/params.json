@@ -1,0 +1,13 @@
+{
+    "ml_task": "multiclass_classification",
+    "optimize_metric": "logloss",
+    "saved": [
+        "AutoML_1/1_Baseline",
+        "AutoML_1/2_DecisionTree",
+        "AutoML_1/3_Linear",
+        "AutoML_1/4_Default_RandomForest",
+        "AutoML_1/5_Default_Xgboost",
+        "AutoML_1/6_Default_NeuralNetwork",
+        "AutoML_1/Ensemble"
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "uid": "500b2914-f822-420d-bf5a-e0bc212f5364",
+    "name": "3_Linear",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.7977089564648217,
+                        0.4307635072879844,
+                        1.7485999847421845,
+                        0.7775321298941616
+                    ],
+                    "mean": [
+                        5.847435897435898,
+                        3.0269230769230773,
+                        3.7551282051282056,
+                        1.2076923076923076
+                    ],
+                    "var": [
+                        0.6363395792241947,
+                        0.18555719921104538,
+                        3.057601906640368,
+                        0.6045562130177515
+                    ],
+                    "n_samples_seen": 78,
+                    "columns": [
+                        "sepal length (cm)",
+                        "sepal width (cm)",
+                        "petal length (cm)",
+                        "petal width (cm)"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "setosa": 0,
+                "versicolor": 1,
+                "virginica": 2
+            },
+            "ml_task": "multiclass_classification"
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.22",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "7e75974b-1c88-4ac8-97ce-df6ad7f268f0",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "multiclass_classification",
+                "seed": 1235,
+                "num_class": 3,
+                "explain_level": 2
+            }
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "sepal length (cm)": [
+                    "scale_normal"
+                ],
+                "sepal width (cm)": [
+                    "scale_normal"
+                ],
+                "petal length (cm)": [
+                    "scale_normal"
+                ],
+                "petal width (cm)": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "multiclass_classification"
+        },
+        "validation": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_train_path": "AutoML_1/X_train.parquet",
+            "y_train_path": "AutoML_1/y_train.parquet",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "multiclass_classification",
+            "seed": 1235,
+            "num_class": 3,
+            "explain_level": 2
+        },
+        "ml_task": "multiclass_classification",
+        "explain_level": 2,
+        "name": "3_Linear"
+    },
+    "saved": [
+        "AutoML_1/3_Linear/learner_1.linear"
+    ],
+    "predictions_fname": "AutoML_1/3_Linear/predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.12528998643002306,
+    "train_time": 27.058665990829468,
+    "is_stacked": false
+}

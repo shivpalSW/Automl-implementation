@@ -1,0 +1,27 @@
+{
+    "columns": [
+        "sepal length (cm)",
+        "sepal width (cm)",
+        "petal length (cm)",
+        "petal width (cm)"
+    ],
+    "rows": 105,
+    "cols": 4,
+    "target_is_numeric": false,
+    "columns_info": {
+        "sepal length (cm)": [
+            "scale"
+        ],
+        "sepal width (cm)": [
+            "scale"
+        ],
+        "petal length (cm)": [
+            "scale"
+        ],
+        "petal width (cm)": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "num_class": 3
+}
