@@ -1,4 +1,5 @@
 # MLJAR auto-trading example on Numerai data
+==================================================================================================
 
 This is an example how MLJAR python package can be used to crunch Numer.ai data. This simple script do following:
 
@@ -11,12 +12,14 @@ This is an example how MLJAR python package can be used to crunch Numer.ai data.
 With no additional feature transformations I was able to get 0.689 logloss score. What logloss can you get with feature engineering? Good luck!
 
 
+
 ## How to run it?
 
  1. Copy the source code of the example.
  2. In `main.py` set NUMERAI_USER, NUMERAI_PASS variables with your Numer.ai credentials.
  3. Set environment variable MLJAR_TOKEN with token from mljar.com (you need to have account there).
  4. To run computation: `python main.py`.
+
 
 
 ## MLJAR API
