@@ -10,6 +10,7 @@ This is an example how MLJAR python package can be used to crunch Numer.ai data.
 
 With no additional feature transformations I was able to get 0.689 logloss score. What logloss can you get with feature engineering? Good luck!
 
+
 ## How to run it?
 
  1. Copy the source code of the example.
@@ -17,9 +18,11 @@ With no additional feature transformations I was able to get 0.689 logloss score
  3. Set environment variable MLJAR_TOKEN with token from mljar.com (you need to have account there).
  4. To run computation: `python main.py`.
 
+
 ## MLJAR API
 
 The MLJAR platform is used to learn models in this example. The MLJAR makes algorithm search and tuning painless. All computations are in parallel on machines in MLJAR Cloud.
+
 
 ## Numer.ai API
 
