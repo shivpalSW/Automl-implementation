@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 '''
 Example how to make auto-trading script on Numer.ai data.
 It is using MLJAR for model training.
@@ -61,7 +61,7 @@ def main():
 
 
 if __name__=="__main__":
-=======
+
 '''
 Example how to make auto-trading script on Numer.ai data.
 It is using MLJAR for model training.
@@ -124,5 +124,4 @@ def main():
 
 
 if __name__=="__main__":
->>>>>>> 8c4c37baeff9b071ec81aa3846fcf22f87900323
     main()
