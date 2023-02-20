@@ -5,6 +5,7 @@ It used to interact with numer.ai web page
 import requests
 import zipfile
 from datetime import datetime, timedelta
+import os 
 
 class NumerAPI(object):
     def __init__(self, email, password):
