@@ -1,6 +1,10 @@
 import numpy as np
+
 import pandas as pd
+
 from supervised import AutoML
+
+import matplotlb.pyplot as plt
 
 COLS = 10
 
