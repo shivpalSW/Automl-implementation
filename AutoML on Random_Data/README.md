@@ -4,4 +4,4 @@
 - AutoML on 5k random data
 - AutoML on 10k random data
 
-
+I have implementated AutoML with random data.
